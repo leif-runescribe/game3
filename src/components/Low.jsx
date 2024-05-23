@@ -2,7 +2,7 @@ import React from 'react'
 
 const Low = () => {
   return (
-    <div className='bg-black'>
+    <div className='bg-black pb-20 md:pb-0'>
 
         <div className="flex flex-col lg:flex-row ">
         
@@ -20,7 +20,7 @@ const Low = () => {
           </p>
           <button
             type="button"
-            class="text-2xl md:ml-40 mt-6 relative animation-pulse focus:outline-none"
+            class="mb-10 text-2xl md:ml-40 mt-6 relative animation-pulse focus:outline-none"
           >
             Get Started
           </button>

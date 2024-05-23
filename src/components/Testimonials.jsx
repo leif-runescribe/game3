@@ -35,10 +35,10 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-pink-500 to-blue-900">
-      <h1 className="text-center pt-20 text-5xl font-bold">Testimonials</h1>
-      <div className="">
-        <div className="relative w-full ">
+    <div className="bg-black">
+      <h1 className="text-center text-white  text-5xl font-bold">Testimonials</h1>
+      <div className="px-20 md:px-72 py-20 ">
+        <div className="bg-gradient-to-r from-pink-500 to-blue-900 relative w-full  ">
           <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
             {images.map((image, index) => (
               <div

@@ -1,3 +1,5 @@
+import FAQ from "./components/FAQ"
+import Features from "./components/Features"
 import Low from "./components/Low"
 import Navbar from "./components/Navbar"
 import Page from "./components/Page"
@@ -15,7 +17,8 @@ function App() {
       <Section1/>
       <Low/>
       <Testimonials/>
-     
+      <Features/>
+      <FAQ/>
       
 
     </div>
