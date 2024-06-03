@@ -2,6 +2,11 @@
   margin-top: px;
   
 }
+.fixed-size {
+  width: 300px;  /* Adjust width as needed */
+  height: 300px;  /* Adjust height as needed */
+}
+
 .animation-pulse {
   @apply inline-flex items-center px-4 py-2 rounded-full text-white bg-gradient-to-r from-purple-500 to-pink-500;
 

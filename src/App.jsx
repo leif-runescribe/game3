@@ -3,6 +3,7 @@ import Features from "./components/Features"
 import Low from "./components/Low"
 import Navbar from "./components/Navbar"
 import Page from "./components/Page"
+import Reveal from "./components/Reveal"
 import Section1 from "./components/Section1"
 import Testimonials from "./components/Testimonials"
 
@@ -13,6 +14,7 @@ function App() {
     <div>
    
       <Navbar/>
+      
       <Page/>
       <Section1/>
       <Low/>
